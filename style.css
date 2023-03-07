@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Degrader do fundo do portifolio*/
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #000000 16.62%, #dbac53 85.61%);
+}
+
+/*Parte Superior do Portifolio*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 28px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+
+}
+
+/*Ajuste "LinkedIn" na parte superior*/
+.menu-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+
+}
+
+/*Ajuste "GitHub" na parte superior*/
+.menu-2 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+
+}
+
+/*Ajuste "Twitter" na parte superior*/
+.menu-3 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+
+}
+
+/*Ajuste do espaço e linha/cor do radape*/
+.apresentacao {
+    margin-bottom: 48px;
+    border-top: 3px solid #660c0cb6;
+}
+
+/*Ajuste do Espacamento entre a apresentação e a linha superior*/
+.apresentacao-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 78px;
+}
+
+/*Ajuste da minha foto no portifolio*/
+.apresentacao-principal-imagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*Ajuste no espacamento entre o titulo e o subtitulo*/
+.apresentacao-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/*Ajuste no titulo*/
+.apresentacao-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFF2E7;
+}
+
+/*Ajuste no subtitulo*/
+.apresentacao-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+/*Ajustes do botao "Meu Instagram"*/
+.caixaBotao {
+    background-color: #ECD6C4;
+    width: 170px;
+    height: 50px;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Sarala', sans-serif;
+}
+
+/*Ajuste pra mudar de cor o botao do "Meu Instagram"*/
+.caixaBotao:hover {
+    background-color: rgba(236, 214, 196, 0.53); 
+}
+
+/*Ajustes na minha imagem*/
+.apresentacao-principal-imagem {
+    height: 430px;
+}
+
+/*Ajuste do espacamento entre as linhas do paragrafo embaixo da minha imagem*/
+.apresentacao-secundaria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+
+}
+
+/*Ajuste da linha(divisoria/borda) e titulo embaixo da minha imagem*/
+.apresentacao-secundaria-titulo {
+    border-top: 3px solid #660c0cb6;
+    margin-top: 60px;
+    padding-top: 58px;
+    margin-bottom: 16px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7
+    
+}
+
+/*Ajuste dos paragrafos abaixo de "Habilidades/Curiosidades"*/
+.apresentacao-secundaria-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+
+}
+
+/*Ajuste do rodape(divisoria/borda), na parte inferior*/
+.rodape {
+    padding: 32px;
+    border-top: 3px solid #660c0cb6;
+
+}
+
+/*Ajustes da logo do CIn no rodape*/
+.rodape-imagem {
+    display: block;
+    margin: 0 auto;
+}
